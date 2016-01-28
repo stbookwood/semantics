@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/semantic-ui/dist/semantic.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="ui top attached tabular menu">
+        <a class="active item" data-tab="first">First</a>
+        <a class="item" data-tab="second">Second</a>
+        <a class="item" data-tab="third">Third</a>
+      </div>
+      <div class="ui bottom attached active tab segment" data-tab="first">
+        First
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="second">
+        Second
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="third">
+        Third
+      </div>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/semantic-ui/dist/semantic.js"></script>
+    <script>
+    $('.menu .item').tab();
+    </script>
+  </body>
+</html>

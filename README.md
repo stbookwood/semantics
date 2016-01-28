@@ -1,0 +1,5 @@
+INSTALL:
+
+```shell
+bower install
+```
